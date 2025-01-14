@@ -9,8 +9,6 @@
    if res.ok is true then call function
 7. fetch all information using "variable(data)" for parameter you can check openweatherwebsite
  
-
-
 step to call api : 
 1. Go to the openweathermap.org and create an account.
 2. Go "https://home.openweathermap.org/" --> copy API Keys : 95ce995b778b2aae251663c49ad6d892
