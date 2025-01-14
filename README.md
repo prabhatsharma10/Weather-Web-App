@@ -4,8 +4,10 @@
 3. temp variable = url? cityname & api_key & units = metrics.  metrics --> unit of measurement
 4. const "res" = await fetch(temp).    //"res" variable store response
    #fetch() -- This method starts the process of fetching a resource from a server.
-5. what response you got. store in a variable in json format.
+5. what response you got. store in a "variable(data)" in json format.
 6. res.ok --> means it is boolean property that indicated that weather an HTTP response was successfull
+   if res.ok is true then call function
+7. fetch all information using "variable(data)" for parameter you can check openweatherwebsite
  
 
 
