@@ -1,4 +1,14 @@
 # Weather_Web_App
+1. 3 things we need API key, URL, CityName
+2. async function because await is used inside async function.
+3. temp variable = url? cityname & api_key & units = metrics.  metrics --> unit of measurement
+4. const "res" = await fetch(temp).    //"res" variable store response
+   #fetch() -- This method starts the process of fetching a resource from a server.
+5. what response you got. store in a variable in json format.
+6. res.ok --> means it is boolean property that indicated that weather an HTTP response was successfull
+ 
+
+
 step to call api : 
 1. Go to the openweathermap.org and create an account.
 2. Go "https://home.openweathermap.org/" --> copy API Keys : 95ce995b778b2aae251663c49ad6d892
