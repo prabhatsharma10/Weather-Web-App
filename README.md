@@ -1,3 +1,17 @@
+
+⚙️ How It Works
+1. Build the API Request URL  
+   You need :
+   - Base URL: `https://api.openweathermap.org/data/2.5/weather`
+   - Query Parameters:
+     - `q`: City Name (e.g., `Lucknow`)
+     - `appid`: Your API Key
+     - `units`: `metric` (for temperature in Celsius)
+
+   ```js
+   const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=metric`;
+
+
 # Weather_Web_App
 1. 3 things we need API key, URL, CityName
 2. async function because await is used inside async function.
